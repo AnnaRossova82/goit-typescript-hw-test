@@ -8,6 +8,7 @@ export interface Image {
   urls: {
     small: string;
     regular: string;
+    thumb: string; 
   };
   alt_description: string;
 }

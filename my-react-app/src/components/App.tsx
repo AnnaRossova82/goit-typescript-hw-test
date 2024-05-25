@@ -6,7 +6,7 @@ import { fetchImages } from '../images-api';
 import { Audio } from 'react-loader-spinner';
 import ImageModal from './ImageModal/ImageModal';
 import LoadMoreBtn from './LoadMoreBtn/LoadMoreBtn';
-import { Image } from '../types';
+import { Image } from '../../types';
 
 const App: React.FC = () => {
   const [images, setImages] = useState<Image[]>([]);
@@ -76,10 +76,10 @@ const App: React.FC = () => {
           <Audio
             height="80"
             width="80"
-            radius="9"
+            // radius="9"
             color="green"
             ariaLabel="three-dots-loading"
-            wrapperStyle=""
+            wrapperStyle={{}} 
             wrapperClass=""
           />
         </div>

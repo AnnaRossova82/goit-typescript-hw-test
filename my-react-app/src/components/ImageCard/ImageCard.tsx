@@ -1,4 +1,5 @@
-import { Image } from '../images-api';
+
+import { Image } from '../../images-api';
 
 interface ImageCardProps {
   image: Image;
